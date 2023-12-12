@@ -22,7 +22,7 @@ const MiComponente = () => {
         // <Fragment></Fragment>
         // <div></div>
         <div className="mi-componente">
-            <h2>Componente creado</h2>
+            <h2>Primer Componente creado</h2>
             <h3>Datos del usuario</h3>
             <ul>
                 <li>Nombre: <strong>{usuario.nombre}</strong></li>

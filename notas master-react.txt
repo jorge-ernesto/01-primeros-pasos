@@ -1,0 +1,21 @@
+---- Notas ----
+
+20. Instalar React y crear el primero proyecto
+    - npx create-react-app 01-primeros-pasos ----> Permite crear el proyecto de React sin que este "create-react-app" instalado
+    - https://es.legacy.reactjs.org/ ----> Pagina de React en Español
+    - https://create-react-app.dev/ ----> Pagina de create-react-app
+    - cd 01-primeros-pasos
+    - npm start
+
+21. Plugin para navegadores
+    - React Developer Tools
+
+27. Interpolar variables, condicionales y bucles en JSX
+    - rafc ----> Snippet de la extension instalada en VSCode "Extensión: ES7 + React/Redux/React-Native snippets" ---> Componente de Funcion de Flecha en React
+
+29. PropTypes y validación de props
+    - Verificación de tipos con PropTypes ----> https://es.legacy.reactjs.org/docs/typechecking-with-proptypes.html
+
+31. Evento Click en React
+    - Manejando eventos ----> https://es.legacy.reactjs.org/docs/handling-events.html
+    - SyntheticEvent ----> https://es.legacy.reactjs.org/docs/events.html

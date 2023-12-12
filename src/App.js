@@ -3,8 +3,19 @@ import './App.css';
 import MiComponente from './componentes/MiComponente';
 import { SegundoComponente } from './componentes/SegundoComponente';
 import { TercerComponente } from './componentes/TercerComponente';
+import { EventosComponente } from './componentes/EventosComponente';
 
 function App() {
+
+  const ficha_medica = {
+    altura: "187cm",
+    grupo: "H+",
+    estado: "Bueno",
+    alergias: "Ninguna",
+  }
+
+  // const numero = 123456;
+
   return (
     <div className="App">
       <header className="App-header">
@@ -17,9 +28,19 @@ function App() {
         <div className="componentes">
 
           <hr />
-          <TercerComponente nombre="Victor" apellidos="Robles" />
+          <EventosComponente />
+
+          <hr />
+          <TercerComponente
+            // nombre="Victor"
+            // nombre={numero}
+            // apellidos="Robles"
+            ficha={ficha_medica}
+          />
+
           <hr />
           <SegundoComponente />
+
           <hr />
           <MiComponente />
 

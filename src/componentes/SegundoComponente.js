@@ -15,16 +15,17 @@ export const SegundoComponente = () => {
             Map, por otro lado, crea un nuevo array transformado con los elementos retornados por la función de mapeo. Es perfecto para generar un array de elementos <li> basado en los elementos del array libros.
             */}
 
-            {libros.length >= 1 ?
-                (<ul>
+            {Object.keys(libros).length >= 1 ? ( // Validar que el array no este vacio
+                <ul>
                     {
-                        libros.map((element, i) => {
+                        libros.map((element, i) => { // Recorrer array
                             return <li key={i}>{element}</li>
                         })
                     }
-                </ul>)
-                : (<p>No hay libros</p>)
-            }
+                </ul>
+            ) : (
+                <p>No hay libros</p>
+            )}
         </div >
     )
 }
